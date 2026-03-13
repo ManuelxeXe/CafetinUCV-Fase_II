@@ -1,0 +1,110 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url("imagenes/BackgroundLogin.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    align-items: center; /* Centra la tarjeta verticalmente */
+}
+
+h1 {
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Pacifico", cursive;
+    
+}
+
+h1 img {
+    display: flex;
+    width: 130px; /* Ajusta el tamaño según tus necesidades */
+    height: auto;
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+}
+
+h2 {
+    
+    text-align: center;
+    margin-top: 20px;
+    font-family:  "Pacifico", cursive;
+}
+.ContenedorInicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;           /* Es mejor usar px o max-width que % para que no se deforme */
+    padding: 30px 0px;     /* Espacio interno arriba/abajo y a los lados */
+    height: auto;           /* Que la altura crezca según el contenido */
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.9);
+    filter: drop-shadow(0 8px 32px rgba(0,0,0,0.2));
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra Suave */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+
+}
+label {
+    display: flex;
+    font-family: "Pacifico", cursive;
+    font-size: 18px;
+    text-align: left;
+    color: #5d4037;
+}
+input {
+    padding: 12px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.Recuerdame {
+    display: flex;          
+    align-items: center;    
+    gap: 8px;               
+    justify-content: center; 
+    margin-top: 5px; 
+    filter : drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));       
+}
+
+.Recuerdame input[type="checkbox"] {
+    width: auto;            /* Evita que el checkbox herede el 100% de otros inputs */
+    cursor: pointer;
+    margin: 0;              /* Quita márgenes residuales */
+}
+
+.Recuerdame label {
+    font-family: "Pacifico", cursive; /* Para mantener la estética del Cafetín */
+    color: #5d4037;
+    cursor: pointer;        /* Hace que al clickear el texto también se marque el check */
+    filter : drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2)); /* Sombra para resaltar el texto */
+}
+
+.login {
+    padding: 12px 20px;
+    background-color: #e4a03b;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    filter : drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+}
+
+.login:hover {
+    background-color:#e4a03ba8 ;
+    transform: scale(1.1);
+}
