@@ -4,7 +4,20 @@
     color: aliceblue;
     font-size: x-large;
 
+} 
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url("/Imagenes/BackgroundUser.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    align-items: center; /* Centra la tarjeta verticalmente */
 }
+
 
 h2 {
     display:  flex;
