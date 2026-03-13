@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    background-image: url("/Imagenes/BackgroundUser.png");
+    background-image: url("https://www.biografiasyvidas.com/biografia/e/fotos/elias_profeta.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
