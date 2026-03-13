@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <title>Historial de Usuario</title>
+    <link rel="stylesheet" href="estilos/estilosPagina.css">
+    <link rel="stylesheet" href="estilos/estilosHistorial.css">
+    <script src = "./global.js"></script>
+    <script src="historial.js"></script>
+
+</head>
+<body>
+
+    <div class="user-container">
+        <button class="Options">
+            <img src="estilos/Imagenes/IconoMenu.png" alt="Opciones">
+        </button>
+        <button id="logout" class="logout">
+            <img src="estilos/Imagenes/IconoLogout.png" alt="Salir"> Cerrar Sesión
+        </button>
+    </div>
+
+    <div class="user-container1">
+        <a href="Usuario.html" class=" Perfil">Tu perfil</a>
+        <a href="Usuario.html" class="Lealtad">Lealtad</a>
+        <a href="Usuario.html" class="Resenas">Reseñas</a>
+        <a href="historial.html" class="Historial">Historial</a>
+        <a href="Usuario.html" type="Chat-bot">Chatbot</a>
+        <a href="Carrito.html" typer="Carrito" >Carrito</a>
+    </div>
+
+    <div class="ContenedorHistorial">
+        <h2>Historial de Compras</h2>
+        <table class="TablaHistorial">
+            <thead>
+                <tr>
+                    <th>Fecha</th>
+                    <th>Producto</th>
+                    <th>Estado</th>
+                    <th>Total</th>
+                    <th>Emitir Reclamo</th>
+                </tr>
+            </thead>
+            <tbody id="cuerpo-historial"></tbody>
+
+        </table>
+    </div>
+
+</body>
+</html>
